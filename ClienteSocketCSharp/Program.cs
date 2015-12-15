@@ -13,7 +13,6 @@ namespace ClienteSocketCSharp
         {
             SocketCliente sc = new SocketCliente("127.0.0.1",9999);
             Console.WriteLine("presione una tecla para iniciar la conexion ...");
-            //Console.ReadLine();
             Console.WriteLine("cliente conectado con el servidor...");
             sc.conectar();
             while (true)
