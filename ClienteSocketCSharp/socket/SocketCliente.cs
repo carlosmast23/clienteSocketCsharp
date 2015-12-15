@@ -20,7 +20,6 @@ namespace ClienteSocketCSharp.socket
         {
             this.host = host;
             this.puerto = puerto;
-            //this.conectar();
         }
 
         public void conectar()
